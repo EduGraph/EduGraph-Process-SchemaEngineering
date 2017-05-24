@@ -1,1 +1,1 @@
-# https-github.com-EduGraph-EduGraph-Process-SchemaEngineering
+# EduGraph-Process-SchemaEngineering
