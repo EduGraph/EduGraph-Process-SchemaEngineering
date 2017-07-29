@@ -4,13 +4,6 @@ Sebastion Blossey
 Philip Vojkovic
 
 
-
-
----Contributors---
-Sebastian Blossey
-Philip Vojkovic
-
-
 ---Process Description---
 
 --BPMN--
