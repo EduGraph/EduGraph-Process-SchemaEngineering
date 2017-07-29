@@ -1,5 +1,5 @@
 # EduGraph-Process-SchemaEngineering
----Contributors---
+###Contributors###
 Sebastian Blossey
 Philip Vojkovic
 
