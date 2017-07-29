@@ -1,0 +1,17 @@
+<form>
+  <div class="form-group">
+    <label for="queue">Change Request zur Implementierung bereit?</label>
+    <select cam-variable-name="UMGESETZT"
+        cam-variable-type="Boolean">
+ 	 <option value="true">Yes</option>
+  	<option value="false">No</option>
+	</select>
+
+  <div class="form-group">
+    <label for="anmerkung">Anmerkung zu erforderlichen Code-Changes</label>
+    <input class="form-control"
+           cam-variable-type="String"
+           cam-variable-name="anmerkung"
+           name="anmerkung" />
+  </div> 
+</form>

@@ -1,0 +1,25 @@
+<form>
+  <div class="form-group">
+    <label for="reviewResults">Ergebnisse fuer Change geeignet?</label>
+    <select cam-variable-name="GEEIGNET"
+        cam-variable-type="Boolean">
+ 	 <option value="true">Yes</option>
+  	<option value="false">No</option>
+	</select>
+  </div>
+    <div class="form-group">
+    <label for="proceed">Change weiter bearbeiten? (nur wenn nicht geeignet!)</label>
+    <select cam-variable-name="PROCEED"
+        cam-variable-type="Boolean">
+ 	 <option value="true">Yes</option>
+  	<option value="false">No</option>
+	</select>
+  </div>
+  <div class="form-group">
+    <label for="anmerkung">Anmerkungen zum Ergebnis</label>
+    <input class="form-control"
+           cam-variable-type="String"
+           cam-variable-name="anmerkung"
+           name="anmerkung" />
+  </div> 
+</form>

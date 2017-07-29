@@ -1,0 +1,19 @@
+<form name="klassifikation">
+
+  <div class="form-group">
+    <label for="crVorhanden">Change Request vorhanden?</label>
+    <select cam-variable-name="VORHANDEN"
+        cam-variable-type="Boolean">
+ 	 <option value="true">Yes</option>
+  	<option value="false">No</option>
+	</select>
+  </div>
+  
+  <div class="form-group">
+    <label for="zugehoerig">Schema</label>
+    <input class="form-control"
+           cam-variable-type="String"
+           cam-variable-name="Schema"
+           name="schema" />
+  </div> 
+</form>
